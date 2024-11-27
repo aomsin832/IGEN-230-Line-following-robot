@@ -1,3 +1,5 @@
+//By Aomsin Nimsombun with the help GPT 4
+
 // Constants
 const int numSensors = 5;
 const int analogPins[numSensors] = {A0, A1, A2, A3, A4}; // Sensor pins
