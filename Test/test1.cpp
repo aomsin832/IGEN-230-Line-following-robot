@@ -33,14 +33,14 @@ void loop() {
   Serial.print(" | Sensor 5 = ");
   Serial.println(sensorValue[4]);
 
-  // Determine whether to move left or right based on the error
-  if (error > 0) {
-    Serial.println("Move Right");
-  } else if (error < 0) {
-    Serial.println("Move Left");
-  } else {
-    Serial.println("Move Straight");
-  }
+//   // Determine whether to move left or right based on the error
+//   if (error > 0) {
+//     Serial.println("Move Right");
+//   } else if (error < 0) {
+//     Serial.println("Move Left");
+//   } else {
+//     Serial.println("Move Straight");
+//   }
 
-  delay(700);  // Delay to make sure the sensor readings are processed properly
-}
+//   delay(700);  // Delay to make sure the sensor readings are processed properly
+// }
