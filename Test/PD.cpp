@@ -3,8 +3,8 @@
 #define sensor_num 5
 
 #define base_speed 135
-#define Kp 1.2
-#define Kd 1
+#define Kp 1.5
+#define Kd 2
 
 #define curve_speed 120
 #define curve_Kp 4
@@ -121,7 +121,6 @@ void PD_Speed(byte speed, byte KP, byte KD) {
 }
 
 
-}
 
 
 void setup() {
@@ -133,5 +132,5 @@ unsigned long time;
 void loop() {
   update_sensor();
   Serial.println(read_line());
-  PD_Speed(75,Kp,Kd);
+  PD_Speed(100,Kp,Kd);
 }
